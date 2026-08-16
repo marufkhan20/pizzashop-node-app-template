@@ -1,0 +1,21 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "This is a auth service for the mirco-service pizza shop project.",
+  "homepage": "https://github.com/marufkhan20/pizzashop-auth-service#readme",
+  "bugs": {
+    "url": "https://github.com/marufkhan20/pizzashop-auth-service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marufkhan20/pizzashop-auth-service.git"
+  },
+  "license": "ISC",
+  "author": "Rashedul Islam Maruf",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
