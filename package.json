@@ -12,10 +12,10 @@
   },
   "license": "ISC",
   "author": "Rashedul Islam Maruf",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js",
+    "dev": "tsx src/server.ts",
     "format:fix": "prettier . --write",
     "format:check": "prettier . --check",
     "lint:check": "eslint .",
@@ -38,5 +38,8 @@
       "npm run format:fix",
       "npm run lint:fix"
     ]
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
   }
 }
